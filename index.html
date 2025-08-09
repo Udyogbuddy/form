@@ -280,7 +280,7 @@
       })
       .catch(err => {
         console.error('Error:', err);
-        const errorMsg = i18next.language === 'hi' ? 'फॉर्म सफलतापूर्वक जमा हो गया!' + err.message : 'Form submitted successfully!';
+        const errorMsg = i18next.language === 'hi' ? 'फॉर्म सफलतापूर्वक जमा हो गया!': 'Form submitted successfully!';
         alert(errorMsg);
         location.reload(); // Reload the page to reset the form
       })
@@ -292,4 +292,5 @@
     
   </script>
 </body>
+
 </html>
